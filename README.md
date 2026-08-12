@@ -76,7 +76,7 @@ The testbed consists of an **Open5GS 5G Core** and a simulated **5G RAN/UE envir
 │                                              │
 │      AMF ───── SMF ───── UPF                 │
 │       │         │          │                 │
-│      AUSF      PCF      User Plane            │
+│      AUSF      PCF      User Plane           │
 │       │         │                            │
 │    UDM/UDR    NRF/NSSF                       │
 │                                              │
@@ -342,7 +342,7 @@ Potential extensions of this project include:
 
 | Field              | Details                                         |
 | ------------------ | ----------------------------------------------- |
-| Student            | ROSHINI A                                       |
+| Student            | **SHARMI R**                                    |
 | Course             | PEP                                             |
 | Program            | EEC                                             |
 | Domain             | 5G / Wireless Communication / Networking        |
@@ -360,6 +360,6 @@ This project provided hands-on experience with the deployment and validation of 
 
 The practical work covered the complete path from **5G Core operation and gNB connectivity to UE registration, authentication, PDU session establishment, and user-plane data communication**.
 
-Packet captures and protocol analysis provided additional evidence for understanding how 5G signaling procedures operate across the different network functions and interfaces.
+Packet captures and protocol analysis provided additional evidence for understanding how 5G signaling procedures operate across different network functions and interfaces.
 
 Overall, the project strengthened my practical understanding of **5G Core networks, wireless communication protocols, Linux networking, virtualization, and packet-level network analysis**.
