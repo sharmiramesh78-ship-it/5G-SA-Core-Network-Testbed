@@ -117,5 +117,21 @@ PDU Session Establishment
 UE Data Tunnel
         ↓
 End-to-End Connectivity
+This approach provided protocol-level understanding of 5G SA network operation.
+
+## 10. Practical Learning
+
+The practical work provided hands-on exposure to:
+
+- 5G SA core network architecture
+- Open5GS operation
+- UERANSIM-based gNB and UE simulation
+- Linux-based network troubleshooting
+- 5G registration procedures
+- PDU session establishment
+- User-plane connectivity
+- Wireshark packet analysis
+
+The work focused on testbed operation, validation, troubleshooting and protocol analysis rather than development of the Open5GS or UERANSIM source code.
         ↓
 Packet-Level Verification
