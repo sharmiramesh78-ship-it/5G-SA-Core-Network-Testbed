@@ -69,3 +69,53 @@ The UE obtained an IPv4 address through:
 
 ```text
 uesimtun0
+## 7. User-Plane Connectivity Validation
+
+The UE data plane was validated using `nr-binder`.
+
+The connectivity test recorded:
+
+- Packets transmitted: 18
+- Packets received: 18
+- Packet loss: 0%
+- Average RTT: approximately 16 ms
+
+This confirmed successful end-to-end user-plane connectivity within the simulated 5G SA testbed.
+
+## 8. Packet Capture and Analysis
+
+Network traffic was captured using tools including:
+
+- tshark
+- tcpdump
+- Wireshark
+
+The captured traffic was analyzed to understand the signaling and user-plane procedures.
+
+The analysis focused on:
+
+- SCTP
+- NGAP
+- NR RRC
+- NAS
+- PFCP
+- GTP
+
+## 9. Validation Approach
+
+The testbed was validated at multiple levels:
+
+```text
+gNB–AMF Connectivity
+        ↓
+UE Registration
+        ↓
+Authentication
+        ↓
+PDU Session Establishment
+        ↓
+UE Data Tunnel
+        ↓
+End-to-End Connectivity
+        ↓
+Packet-Level Verification
